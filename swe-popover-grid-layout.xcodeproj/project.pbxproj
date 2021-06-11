@@ -1,0 +1,939 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DE4315C9267325640048FDB6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE4315C8267325640048FDB6 /* AppDelegate.swift */; };
+		DE4315CB267325640048FDB6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE4315CA267325640048FDB6 /* SceneDelegate.swift */; };
+		DE4315CE267325640048FDB6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE4315CC267325640048FDB6 /* LaunchScreen.storyboard */; };
+		DE4315D1267325640048FDB6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE4315CF267325640048FDB6 /* Main.storyboard */; };
+		DE4315DA267325640048FDB6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE4315D9267325640048FDB6 /* AppDelegate.swift */; };
+		DE4315DD267325640048FDB6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE4315DB267325640048FDB6 /* Main.storyboard */; };
+		DE4315E5267325640048FDB6 /* swe-popover-grid-layout Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = DE4315E4267325640048FDB6 /* swe-popover-grid-layout Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		DE4315EF267325640048FDB6 /* swe-popover-grid-layout Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = DE4315EE267325640048FDB6 /* swe-popover-grid-layout Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		DE4315F4267325640048FDB6 /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = DE4315B8267325630048FDB6 /* Main.html */; };
+		DE4315F5267325640048FDB6 /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = DE4315B8267325630048FDB6 /* Main.html */; };
+		DE4315F6267325640048FDB6 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = DE4315BA267325630048FDB6 /* Icon.png */; };
+		DE4315F7267325640048FDB6 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = DE4315BA267325630048FDB6 /* Icon.png */; };
+		DE4315F8267325640048FDB6 /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = DE4315BB267325630048FDB6 /* Style.css */; };
+		DE4315F9267325640048FDB6 /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = DE4315BB267325630048FDB6 /* Style.css */; };
+		DE4315FA267325640048FDB6 /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = DE4315BC267325630048FDB6 /* Script.js */; };
+		DE4315FB267325640048FDB6 /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = DE4315BC267325630048FDB6 /* Script.js */; };
+		DE4315FC267325640048FDB6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE4315BD267325630048FDB6 /* ViewController.swift */; };
+		DE4315FD267325640048FDB6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE4315BD267325630048FDB6 /* ViewController.swift */; };
+		DE4315FE267325640048FDB6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE4315BE267325640048FDB6 /* Assets.xcassets */; };
+		DE4315FF267325640048FDB6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE4315BE267325640048FDB6 /* Assets.xcassets */; };
+		DE431600267325640048FDB6 /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE4315C0267325640048FDB6 /* SafariWebExtensionHandler.swift */; };
+		DE431601267325640048FDB6 /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE4315C0267325640048FDB6 /* SafariWebExtensionHandler.swift */; };
+		DE43161A267325640048FDB6 /* browser-polyfill-min.js in Resources */ = {isa = PBXBuildFile; fileRef = DE431613267325640048FDB6 /* browser-polyfill-min.js */; };
+		DE43161B267325640048FDB6 /* background.js in Resources */ = {isa = PBXBuildFile; fileRef = DE431614267325640048FDB6 /* background.js */; };
+		DE43161C267325640048FDB6 /* images in Resources */ = {isa = PBXBuildFile; fileRef = DE431615267325640048FDB6 /* images */; };
+		DE43161D267325640048FDB6 /* popover in Resources */ = {isa = PBXBuildFile; fileRef = DE431616267325640048FDB6 /* popover */; };
+		DE43161E267325640048FDB6 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = DE431617267325640048FDB6 /* manifest.json */; };
+		DE43161F267325640048FDB6 /* _locales in Resources */ = {isa = PBXBuildFile; fileRef = DE431618267325640048FDB6 /* _locales */; };
+		DE431620267325640048FDB6 /* content.js in Resources */ = {isa = PBXBuildFile; fileRef = DE431619267325640048FDB6 /* content.js */; };
+		DE431621267325640048FDB6 /* browser-polyfill-min.js in Resources */ = {isa = PBXBuildFile; fileRef = DE431613267325640048FDB6 /* browser-polyfill-min.js */; };
+		DE431622267325640048FDB6 /* background.js in Resources */ = {isa = PBXBuildFile; fileRef = DE431614267325640048FDB6 /* background.js */; };
+		DE431623267325640048FDB6 /* images in Resources */ = {isa = PBXBuildFile; fileRef = DE431615267325640048FDB6 /* images */; };
+		DE431624267325640048FDB6 /* popover in Resources */ = {isa = PBXBuildFile; fileRef = DE431616267325640048FDB6 /* popover */; };
+		DE431625267325640048FDB6 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = DE431617267325640048FDB6 /* manifest.json */; };
+		DE431626267325640048FDB6 /* _locales in Resources */ = {isa = PBXBuildFile; fileRef = DE431618267325640048FDB6 /* _locales */; };
+		DE431627267325640048FDB6 /* content.js in Resources */ = {isa = PBXBuildFile; fileRef = DE431619267325640048FDB6 /* content.js */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DE4315E6267325640048FDB6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DE4315B2267325630048FDB6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DE4315E3267325640048FDB6;
+			remoteInfo = "swe-popover-grid-layout Extension (iOS)";
+		};
+		DE4315F0267325640048FDB6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DE4315B2267325630048FDB6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DE4315ED267325640048FDB6;
+			remoteInfo = "swe-popover-grid-layout Extension (macOS)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		DE431607267325640048FDB6 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				DE4315E5267325640048FDB6 /* swe-popover-grid-layout Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE43160E267325640048FDB6 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				DE4315EF267325640048FDB6 /* swe-popover-grid-layout Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		DE4315B9267325630048FDB6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = ../Base.lproj/Main.html; sourceTree = "<group>"; };
+		DE4315BA267325630048FDB6 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		DE4315BB267325630048FDB6 /* Style.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = Style.css; sourceTree = "<group>"; };
+		DE4315BC267325630048FDB6 /* Script.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = Script.js; sourceTree = "<group>"; };
+		DE4315BD267325630048FDB6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DE4315BE267325640048FDB6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DE4315C0267325640048FDB6 /* SafariWebExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariWebExtensionHandler.swift; sourceTree = "<group>"; };
+		DE4315C5267325640048FDB6 /* swe-popover-grid-layout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "swe-popover-grid-layout.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE4315C8267325640048FDB6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DE4315CA267325640048FDB6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		DE4315CD267325640048FDB6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DE4315D0267325640048FDB6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DE4315D2267325640048FDB6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DE4315D7267325640048FDB6 /* swe-popover-grid-layout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "swe-popover-grid-layout.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE4315D9267325640048FDB6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DE4315DC267325640048FDB6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DE4315DE267325640048FDB6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DE4315DF267325640048FDB6 /* swe-popover-grid-layout.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "swe-popover-grid-layout.entitlements"; sourceTree = "<group>"; };
+		DE4315E4267325640048FDB6 /* swe-popover-grid-layout Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "swe-popover-grid-layout Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE4315E9267325640048FDB6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DE4315EE267325640048FDB6 /* swe-popover-grid-layout Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "swe-popover-grid-layout Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE4315F3267325640048FDB6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DE431613267325640048FDB6 /* browser-polyfill-min.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = "browser-polyfill-min.js"; path = "Resources/browser-polyfill-min.js"; sourceTree = "<group>"; };
+		DE431614267325640048FDB6 /* background.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = background.js; path = Resources/background.js; sourceTree = "<group>"; };
+		DE431615267325640048FDB6 /* images */ = {isa = PBXFileReference; lastKnownFileType = folder; name = images; path = Resources/images; sourceTree = "<group>"; };
+		DE431616267325640048FDB6 /* popover */ = {isa = PBXFileReference; lastKnownFileType = folder; name = popover; path = Resources/popover; sourceTree = "<group>"; };
+		DE431617267325640048FDB6 /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = manifest.json; path = Resources/manifest.json; sourceTree = "<group>"; };
+		DE431618267325640048FDB6 /* _locales */ = {isa = PBXFileReference; lastKnownFileType = folder; name = _locales; path = Resources/_locales; sourceTree = "<group>"; };
+		DE431619267325640048FDB6 /* content.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = content.js; path = Resources/content.js; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DE4315C2267325640048FDB6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE4315D4267325640048FDB6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE4315E1267325640048FDB6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE4315EB267325640048FDB6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DE4315B1267325630048FDB6 = {
+			isa = PBXGroup;
+			children = (
+				DE4315B6267325630048FDB6 /* Shared (App) */,
+				DE4315BF267325640048FDB6 /* Shared (Extension) */,
+				DE4315C7267325640048FDB6 /* iOS (App) */,
+				DE4315D8267325640048FDB6 /* macOS (App) */,
+				DE4315E8267325640048FDB6 /* iOS (Extension) */,
+				DE4315F2267325640048FDB6 /* macOS (Extension) */,
+				DE4315C6267325640048FDB6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DE4315B6267325630048FDB6 /* Shared (App) */ = {
+			isa = PBXGroup;
+			children = (
+				DE4315BD267325630048FDB6 /* ViewController.swift */,
+				DE4315BE267325640048FDB6 /* Assets.xcassets */,
+				DE4315B7267325630048FDB6 /* Resources */,
+			);
+			path = "Shared (App)";
+			sourceTree = "<group>";
+		};
+		DE4315B7267325630048FDB6 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				DE4315B8267325630048FDB6 /* Main.html */,
+				DE4315BA267325630048FDB6 /* Icon.png */,
+				DE4315BB267325630048FDB6 /* Style.css */,
+				DE4315BC267325630048FDB6 /* Script.js */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		DE4315BF267325640048FDB6 /* Shared (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				DE431612267325640048FDB6 /* Resources */,
+				DE4315C0267325640048FDB6 /* SafariWebExtensionHandler.swift */,
+			);
+			path = "Shared (Extension)";
+			sourceTree = "<group>";
+		};
+		DE4315C6267325640048FDB6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DE4315C5267325640048FDB6 /* swe-popover-grid-layout.app */,
+				DE4315D7267325640048FDB6 /* swe-popover-grid-layout.app */,
+				DE4315E4267325640048FDB6 /* swe-popover-grid-layout Extension.appex */,
+				DE4315EE267325640048FDB6 /* swe-popover-grid-layout Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DE4315C7267325640048FDB6 /* iOS (App) */ = {
+			isa = PBXGroup;
+			children = (
+				DE4315C8267325640048FDB6 /* AppDelegate.swift */,
+				DE4315CA267325640048FDB6 /* SceneDelegate.swift */,
+				DE4315CC267325640048FDB6 /* LaunchScreen.storyboard */,
+				DE4315CF267325640048FDB6 /* Main.storyboard */,
+				DE4315D2267325640048FDB6 /* Info.plist */,
+			);
+			path = "iOS (App)";
+			sourceTree = "<group>";
+		};
+		DE4315D8267325640048FDB6 /* macOS (App) */ = {
+			isa = PBXGroup;
+			children = (
+				DE4315D9267325640048FDB6 /* AppDelegate.swift */,
+				DE4315DB267325640048FDB6 /* Main.storyboard */,
+				DE4315DE267325640048FDB6 /* Info.plist */,
+				DE4315DF267325640048FDB6 /* swe-popover-grid-layout.entitlements */,
+			);
+			path = "macOS (App)";
+			sourceTree = "<group>";
+		};
+		DE4315E8267325640048FDB6 /* iOS (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				DE4315E9267325640048FDB6 /* Info.plist */,
+			);
+			path = "iOS (Extension)";
+			sourceTree = "<group>";
+		};
+		DE4315F2267325640048FDB6 /* macOS (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				DE4315F3267325640048FDB6 /* Info.plist */,
+			);
+			path = "macOS (Extension)";
+			sourceTree = "<group>";
+		};
+		DE431612267325640048FDB6 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				DE431613267325640048FDB6 /* browser-polyfill-min.js */,
+				DE431614267325640048FDB6 /* background.js */,
+				DE431615267325640048FDB6 /* images */,
+				DE431616267325640048FDB6 /* popover */,
+				DE431617267325640048FDB6 /* manifest.json */,
+				DE431618267325640048FDB6 /* _locales */,
+				DE431619267325640048FDB6 /* content.js */,
+			);
+			name = Resources;
+			path = "Shared (Extension)";
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DE4315C4267325640048FDB6 /* swe-popover-grid-layout (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE431608267325640048FDB6 /* Build configuration list for PBXNativeTarget "swe-popover-grid-layout (iOS)" */;
+			buildPhases = (
+				DE4315C1267325640048FDB6 /* Sources */,
+				DE4315C2267325640048FDB6 /* Frameworks */,
+				DE4315C3267325640048FDB6 /* Resources */,
+				DE431607267325640048FDB6 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DE4315E7267325640048FDB6 /* PBXTargetDependency */,
+			);
+			name = "swe-popover-grid-layout (iOS)";
+			productName = "swe-popover-grid-layout (iOS)";
+			productReference = DE4315C5267325640048FDB6 /* swe-popover-grid-layout.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DE4315D6267325640048FDB6 /* swe-popover-grid-layout (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE43160F267325640048FDB6 /* Build configuration list for PBXNativeTarget "swe-popover-grid-layout (macOS)" */;
+			buildPhases = (
+				DE4315D3267325640048FDB6 /* Sources */,
+				DE4315D4267325640048FDB6 /* Frameworks */,
+				DE4315D5267325640048FDB6 /* Resources */,
+				DE43160E267325640048FDB6 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DE4315F1267325640048FDB6 /* PBXTargetDependency */,
+			);
+			name = "swe-popover-grid-layout (macOS)";
+			productName = "swe-popover-grid-layout (macOS)";
+			productReference = DE4315D7267325640048FDB6 /* swe-popover-grid-layout.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DE4315E3267325640048FDB6 /* swe-popover-grid-layout Extension (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE431604267325640048FDB6 /* Build configuration list for PBXNativeTarget "swe-popover-grid-layout Extension (iOS)" */;
+			buildPhases = (
+				DE4315E0267325640048FDB6 /* Sources */,
+				DE4315E1267325640048FDB6 /* Frameworks */,
+				DE4315E2267325640048FDB6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "swe-popover-grid-layout Extension (iOS)";
+			productName = "swe-popover-grid-layout Extension (iOS)";
+			productReference = DE4315E4267325640048FDB6 /* swe-popover-grid-layout Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		DE4315ED267325640048FDB6 /* swe-popover-grid-layout Extension (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE43160B267325640048FDB6 /* Build configuration list for PBXNativeTarget "swe-popover-grid-layout Extension (macOS)" */;
+			buildPhases = (
+				DE4315EA267325640048FDB6 /* Sources */,
+				DE4315EB267325640048FDB6 /* Frameworks */,
+				DE4315EC267325640048FDB6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "swe-popover-grid-layout Extension (macOS)";
+			productName = "swe-popover-grid-layout Extension (macOS)";
+			productReference = DE4315EE267325640048FDB6 /* swe-popover-grid-layout Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DE4315B2267325630048FDB6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					DE4315C4267325640048FDB6 = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					DE4315D6267325640048FDB6 = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					DE4315E3267325640048FDB6 = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					DE4315ED267325640048FDB6 = {
+						CreatedOnToolsVersion = 13.0;
+					};
+				};
+			};
+			buildConfigurationList = DE4315B5267325630048FDB6 /* Build configuration list for PBXProject "swe-popover-grid-layout" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DE4315B1267325630048FDB6;
+			productRefGroup = DE4315C6267325640048FDB6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DE4315C4267325640048FDB6 /* swe-popover-grid-layout (iOS) */,
+				DE4315D6267325640048FDB6 /* swe-popover-grid-layout (macOS) */,
+				DE4315E3267325640048FDB6 /* swe-popover-grid-layout Extension (iOS) */,
+				DE4315ED267325640048FDB6 /* swe-popover-grid-layout Extension (macOS) */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DE4315C3267325640048FDB6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE4315F6267325640048FDB6 /* Icon.png in Resources */,
+				DE4315CE267325640048FDB6 /* LaunchScreen.storyboard in Resources */,
+				DE4315F4267325640048FDB6 /* Main.html in Resources */,
+				DE4315FA267325640048FDB6 /* Script.js in Resources */,
+				DE4315FE267325640048FDB6 /* Assets.xcassets in Resources */,
+				DE4315D1267325640048FDB6 /* Main.storyboard in Resources */,
+				DE4315F8267325640048FDB6 /* Style.css in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE4315D5267325640048FDB6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE4315F7267325640048FDB6 /* Icon.png in Resources */,
+				DE4315F9267325640048FDB6 /* Style.css in Resources */,
+				DE4315DD267325640048FDB6 /* Main.storyboard in Resources */,
+				DE4315FB267325640048FDB6 /* Script.js in Resources */,
+				DE4315FF267325640048FDB6 /* Assets.xcassets in Resources */,
+				DE4315F5267325640048FDB6 /* Main.html in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE4315E2267325640048FDB6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE431626267325640048FDB6 /* _locales in Resources */,
+				DE431623267325640048FDB6 /* images in Resources */,
+				DE431622267325640048FDB6 /* background.js in Resources */,
+				DE431625267325640048FDB6 /* manifest.json in Resources */,
+				DE431624267325640048FDB6 /* popover in Resources */,
+				DE431627267325640048FDB6 /* content.js in Resources */,
+				DE431621267325640048FDB6 /* browser-polyfill-min.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE4315EC267325640048FDB6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE43161F267325640048FDB6 /* _locales in Resources */,
+				DE43161C267325640048FDB6 /* images in Resources */,
+				DE43161B267325640048FDB6 /* background.js in Resources */,
+				DE43161E267325640048FDB6 /* manifest.json in Resources */,
+				DE43161D267325640048FDB6 /* popover in Resources */,
+				DE431620267325640048FDB6 /* content.js in Resources */,
+				DE43161A267325640048FDB6 /* browser-polyfill-min.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DE4315C1267325640048FDB6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE4315FC267325640048FDB6 /* ViewController.swift in Sources */,
+				DE4315C9267325640048FDB6 /* AppDelegate.swift in Sources */,
+				DE4315CB267325640048FDB6 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE4315D3267325640048FDB6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE4315FD267325640048FDB6 /* ViewController.swift in Sources */,
+				DE4315DA267325640048FDB6 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE4315E0267325640048FDB6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE431600267325640048FDB6 /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE4315EA267325640048FDB6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE431601267325640048FDB6 /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DE4315E7267325640048FDB6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DE4315E3267325640048FDB6 /* swe-popover-grid-layout Extension (iOS) */;
+			targetProxy = DE4315E6267325640048FDB6 /* PBXContainerItemProxy */;
+		};
+		DE4315F1267325640048FDB6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DE4315ED267325640048FDB6 /* swe-popover-grid-layout Extension (macOS) */;
+			targetProxy = DE4315F0267325640048FDB6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DE4315B8267325630048FDB6 /* Main.html */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DE4315B9267325630048FDB6 /* Base */,
+			);
+			name = Main.html;
+			sourceTree = "<group>";
+		};
+		DE4315CC267325640048FDB6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DE4315CD267325640048FDB6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		DE4315CF267325640048FDB6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DE4315D0267325640048FDB6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DE4315DB267325640048FDB6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DE4315DC267325640048FDB6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DE431602267325640048FDB6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DE431603267325640048FDB6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		DE431605267325640048FDB6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "swe-popover-grid-layout Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourCompany.swe-popover-grid-layout.Extension";
+				PRODUCT_NAME = "swe-popover-grid-layout Extension";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DE431606267325640048FDB6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "swe-popover-grid-layout Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourCompany.swe-popover-grid-layout.Extension";
+				PRODUCT_NAME = "swe-popover-grid-layout Extension";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DE431609267325640048FDB6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "swe-popover-grid-layout";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourCompany.swe-popover-grid-layout";
+				PRODUCT_NAME = "swe-popover-grid-layout";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DE43160A267325640048FDB6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "swe-popover-grid-layout";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourCompany.swe-popover-grid-layout";
+				PRODUCT_NAME = "swe-popover-grid-layout";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DE43160C267325640048FDB6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_USER_SELECTED_FILES = readonly;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "swe-popover-grid-layout Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourCompany.swe-popover-grid-layout.Extension";
+				PRODUCT_NAME = "swe-popover-grid-layout Extension";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		DE43160D267325640048FDB6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_USER_SELECTED_FILES = readonly;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "swe-popover-grid-layout Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourCompany.swe-popover-grid-layout.Extension";
+				PRODUCT_NAME = "swe-popover-grid-layout Extension";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		DE431610267325640048FDB6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "macOS (App)/swe-popover-grid-layout.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_USER_SELECTED_FILES = readonly;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "swe-popover-grid-layout";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourCompany.swe-popover-grid-layout";
+				PRODUCT_NAME = "swe-popover-grid-layout";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		DE431611267325640048FDB6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "macOS (App)/swe-popover-grid-layout.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_USER_SELECTED_FILES = readonly;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "swe-popover-grid-layout";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourCompany.swe-popover-grid-layout";
+				PRODUCT_NAME = "swe-popover-grid-layout";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DE4315B5267325630048FDB6 /* Build configuration list for PBXProject "swe-popover-grid-layout" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE431602267325640048FDB6 /* Debug */,
+				DE431603267325640048FDB6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DE431604267325640048FDB6 /* Build configuration list for PBXNativeTarget "swe-popover-grid-layout Extension (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE431605267325640048FDB6 /* Debug */,
+				DE431606267325640048FDB6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DE431608267325640048FDB6 /* Build configuration list for PBXNativeTarget "swe-popover-grid-layout (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE431609267325640048FDB6 /* Debug */,
+				DE43160A267325640048FDB6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DE43160B267325640048FDB6 /* Build configuration list for PBXNativeTarget "swe-popover-grid-layout Extension (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE43160C267325640048FDB6 /* Debug */,
+				DE43160D267325640048FDB6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DE43160F267325640048FDB6 /* Build configuration list for PBXNativeTarget "swe-popover-grid-layout (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE431610267325640048FDB6 /* Debug */,
+				DE431611267325640048FDB6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DE4315B2267325630048FDB6 /* Project object */;
+}

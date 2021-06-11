@@ -1,0 +1,39 @@
+body {
+  width: 600px;
+  height: 450px;
+}
+
+#container {
+  display: grid;
+  position: fixed;
+  grid-template-columns: 250px 1fr;
+  grid-template-rows: 44px calc(100vh - 68px);
+  grid-row-gap: 12px;
+  padding-top: 12px;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+#top-container {
+  grid-column: 1 / span 2;
+  display: flex;
+  padding: 0 20px;
+}
+
+#left-half {
+  background-color: red;
+}
+
+#right-half {
+  background-color: grey;
+  z-index: 1;
+  display: grid;
+  grid-template-rows: 1fr 53px;
+  box-shadow: inset 0 1px 0 0 black, -1px 0 0 0 black;
+}
+
+#open-as-tab {
+  font-weight: bold;
+  color: white;
+}
